@@ -1,0 +1,26 @@
+.contFilter{
+    margin: 30px 0 20px 0 ;
+}
+
+.btnfltr {
+    margin: 5px;
+    height: 50px;
+    width: 120px;
+    border-radius: 10px;
+    background: bisque;
+    justify-content: center;
+    align-items: center;
+    box-shadow: -5px -5px 15px rgb(253, 176, 176), 5px 5px 15px rgb(248, 164, 164), inset 5px 5px 10px rgb(250, 140, 140), inset -5px -5px 10px rgb(245, 141, 141);
+    font-family: 'Damion', cursive;
+    border: none;
+    font-size: 16px;
+    color: rgb(253, 147, 147);
+    transition: 500ms;
+    cursor: pointer;
+  }
+  
+  .btnfltr:hover {
+    box-shadow: -5px -5px 15px rgb(241, 137, 137), 5px 5px 15px rgb(247, 146, 146), inset 5px 5px 10px rgb(247, 158, 158), inset -5px -5px 10px rgb(245, 180, 180);
+    color: #0c0000;
+    transition: 500ms;
+  }

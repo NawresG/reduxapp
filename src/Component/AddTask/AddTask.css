@@ -1,0 +1,31 @@
+.inp{
+    height: 3em;
+    width: 40%;
+    box-shadow: 6px 6px 12px #c5c5c5,
+    -6px -6px 12px #ffffff;
+    border: 1px solid #e8e8e8;
+    border-radius: 0.5em;
+}
+
+
+.addbtn {
+    color: #fa8080;
+    padding: 0.7em 1.7em;
+    font-size: 18px;
+    border-radius: 0.5em;
+    background: #faf4f4;
+    border: 1px solid #f3a5a5;
+    transition: all .3s;
+    box-shadow: 6px 6px 12px hsl(0, 79%, 81%),
+                -6px -6px 12px #f1a8a8;
+    cursor: pointer;
+   }
+   
+   .addbtn:hover {
+    border: 1px solid rgb(247, 156, 156);
+   }
+   
+   .addbtn:active {
+    box-shadow: 4px 4px 12px #f89696,
+                -4px -4px 12px #ec9d9d;
+   }
